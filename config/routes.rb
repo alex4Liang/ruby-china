@@ -189,6 +189,7 @@ Rails.application.routes.draw do
   constraints(id: /[\w\-\.]*/) do
     resources :users, path: '', as: 'users' do
       member do
+        # User only
         get :topics
         get :replies
         get :favorites
@@ -201,6 +202,9 @@ Rails.application.routes.draw do
         get :followers
         get :following
         get :calendar
+
+        # Team only
+        get :people
       end
     end
   end

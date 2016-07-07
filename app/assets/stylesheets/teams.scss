@@ -1,0 +1,59 @@
+@import 'vars';
+
+.team-header {
+  background: $red;
+  box-shadow: 0 0 0 0;
+  padding-top: 40px;
+  padding-bottom: 0px;
+
+  color: #FFF;
+
+  a { color: #f6f2da; }
+
+  .media {
+    .media-object {
+      border: 4px solid #FFF;
+    }
+    .media-left { padding: 0 10px; padding-right: 40px; }
+    .media-heading {
+      margin-top: 15px; margin-bottom: 8px;
+      span.location { margin-left: 14px; font-size: 14px; }
+    }
+    .subtitle {
+      .icons {
+        a { margin-right: 5px; font-size: 24px; }
+      }
+    }
+  }
+
+  .nav-tabs {
+    margin-top: 40px;
+    border-bottom: 0px;
+
+    a {
+      border: 0px !important;
+      padding-left: 34px;
+      padding-right: 34px;
+      &:hover { background: transparent; }
+    }
+    .active {
+      a {
+        background: #FFF;
+      }
+    }
+  }
+}
+
+.team-sidebar {
+  .members {
+
+  }
+}
+
+.team-users {
+  .team-user {
+    padding: 14px;
+
+    .name { font-size: 14px; padding-top: 8px; }
+  }
+}

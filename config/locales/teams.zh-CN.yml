@@ -2,3 +2,5 @@
   teams:
     teams: '组织'
     new_team: '创建公司／组织'
+    users: '成员列表'
+    settings: '设置'

@@ -1,0 +1,12 @@
+<div class="team-user media" data-id="<%= team_user.id %>">
+  <div class="media-left"><%= user_avatar_tag(team_user.user, :sm, link: false) %></div>
+  <div class="media-body">
+    <div class="name">
+      <%= user_name_tag(team_user.user) %>
+      <%= team_user&.user&.name %>
+    </div>
+  </div>
+  <div class="media-right">
+    <%= follow_user_tag(team_user.user) %>
+  </div>
+</div>
